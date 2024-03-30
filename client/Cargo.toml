@@ -25,5 +25,5 @@ tokio = { version = "1", features = ["rt", "sync"] }
 url = "2"
 
 [patch.crates-io]
-solana-program = { path = "/root/solana-1.18/sdk/program" } 
-solana-zk-token-sdk = { path = "/root/solana-1.18/zk-token-sdk" }
+solana-program = { git = "https://github.com/tinydancer-io/solana-1.18", branch = "patch-dep" } 
+solana-zk-token-sdk = { git = "https://github.com/tinydancer-io/solana-1.18", branch = "patch-dep" }
